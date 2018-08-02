@@ -1,16 +1,59 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+    "categories": [
+        {
+            "id": 1,
+            "name": "Hats",
+            "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Clothes",
+            "imageUrl": "https://www.hodoclothes.com/wp-content/uploads/2018/05/Sample-Display.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Napkins",
+            "imageUrl": "https://www.topp-kreativ.de/media/image/80/ab/01/Kloeppeln_band-1195986_1920.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Beads",
+            "imageUrl": "https://cdn.shopify.com/s/files/1/1346/1927/files/Mothersday-2017_CollectionBanner_450px_1600x_f871c84a-4cea-4338-bc6b-10c76f040bb1_2048x2048.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Furniture",
+            "imageUrl": "https://market.marmelada.co.il/photos/2437858.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Accessoires",
+            "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
+        }
+    ],
+    "stores": [
+        {
+            "id": 1,
+            "name": "Abc Def",
+            "url": "abcdef",
+            "rating": 2,
+            "categoryIds": [
+                1,
+                2
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Bracelet",
+            "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
+            "image": "",
+            "storeId": 1,
+            "categoryIds": [
+                4,
+                6
+            ]
+        }
+    ]
 }
