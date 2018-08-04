@@ -1,6 +1,24 @@
 {
-    "categories": [
-        {
+    "users": [{
+        "id": 5,
+        "name": "Gram Letre",
+        "email": "gram@letre.com",
+        "roleId": 3
+    }],
+    "roles": [{
+        "id": 1,
+        "name": "Serfer"
+    }, {
+        "id": 2,
+        "name": "Buyer"
+    }, {
+        "id": 3,
+        "name": "Seller"
+    }, {
+        "id": 4,
+        "name": "Admin"
+    }],
+    "categories": [{
             "id": 1,
             "name": "Hats",
             "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
@@ -31,29 +49,25 @@
             "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
         }
     ],
-    "stores": [
-        {
-            "id": 1,
-            "name": "Abc Def",
-            "url": "abcdef",
-            "rating": 2,
-            "categoryIds": [
-                1,
-                2
-            ]
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Bracelet",
-            "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
-            "image": "",
-            "storeId": 1,
-            "categoryIds": [
-                4,
-                6
-            ]
-        }
-    ]
+    "stores": [{
+        "id": 1,
+        "name": "Abc Def",
+        "url": "abcdef",
+        "rating": 2,
+        "categoryId": [
+            1, 2, 4
+        ],
+        "userId": 5
+    }],
+    "products": [{
+        "id": 1,
+        "name": "Bracelet",
+        "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
+        "imageUrl": "https://i.ebayimg.com/images/g/gg4AAOSw-K9ZNLg8/s-l300.jpg",
+        "storeId": 1,
+        "categoryId": [
+            4,
+            6
+        ]
+    }]
 }
