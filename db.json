@@ -1,13 +1,20 @@
 {
     "users": [{
+        "id": 1,
+        "name": "Eliyahu Shlieserman",
+        "email": "eliyahushli@gmail.com",
+        "password": "1234",
+        "roleId": 4
+    },{
         "id": 5,
         "name": "Gram Letre",
         "email": "gram@letre.com",
+        "password": "1234",
         "roleId": 3
     }],
     "roles": [{
         "id": 1,
-        "name": "Serfer"
+        "name": "Surfer"
     }, {
         "id": 2,
         "name": "Buyer"
@@ -68,6 +75,7 @@
         "categoryId": [
             4,
             6
-        ]
+        ],
+        "added": "2018-07-28"
     }]
 }
