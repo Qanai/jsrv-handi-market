@@ -1,6 +1,5 @@
 {
-  "users": [
-    {
+  "users": [{
       "id": 1,
       "name": "Eliyahu Shlieserman",
       "email": "eliyahushli@gmail.com",
@@ -29,8 +28,7 @@
       "id": 7
     }
   ],
-  "roles": [
-    {
+  "roles": [{
       "id": 1,
       "name": "Surfer"
     },
@@ -47,8 +45,7 @@
       "name": "Admin"
     }
   ],
-  "categories": [
-    {
+  "categories": [{
       "id": 1,
       "name": "Hats",
       "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
@@ -79,22 +76,19 @@
       "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
     }
   ],
-  "stores": [
-    {
-      "id": 1,
-      "name": "Abc Def",
-      "url": "abcdef",
-      "rating": 2,
-      "categoryId": [
-        1,
-        2,
-        4
-      ],
-      "userId": 5
-    }
-  ],
-  "products": [
-    {
+  "stores": [{
+    "id": 1,
+    "name": "Abc Def",
+    "url": "abcdef",
+    "rating": 2,
+    "categoryId": [
+      1,
+      2,
+      4
+    ],
+    "userId": 5
+  }],
+  "products": [{
       "id": 1,
       "name": "Bracelet",
       "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
@@ -117,6 +111,54 @@
         6
       ],
       "added": "2018-07-30"
+    },
+    {
+      "id": 3,
+      "name": "Bracelet",
+      "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
+      "imageUrl": "https://i.ebayimg.com/images/g/gg4AAOSw-K9ZNLg8/s-l300.jpg",
+      "storeId": 1,
+      "categoryId": [
+        4,
+        6
+      ],
+      "added": "2018-08-01"
+    },
+    {
+      "id": 4,
+      "name": "Ring",
+      "description": "kjds fk dfk f gfke",
+      "imageUrl": "https://img.etsystatic.com/il/d3ef40/999017606/il_570xN.999017606_6t7v.jpg",
+      "storeId": 1,
+      "categoryId": [
+        4,
+        6
+      ],
+      "added": "2018-07-30"
+    },
+    {
+      "id": 5,
+      "name": "Bracelet",
+      "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
+      "imageUrl": "https://i.ebayimg.com/images/g/gg4AAOSw-K9ZNLg8/s-l300.jpg",
+      "storeId": 1,
+      "categoryId": [
+        4,
+        6
+      ],
+      "added": "2018-08-02"
+    },
+    {
+      "id": 6,
+      "name": "Ring",
+      "description": "kjds fk dfk f gfke",
+      "imageUrl": "https://img.etsystatic.com/il/d3ef40/999017606/il_570xN.999017606_6t7v.jpg",
+      "storeId": 1,
+      "categoryId": [
+        4,
+        6
+      ],
+      "added": "2018-08-03"
     }
   ]
 }
