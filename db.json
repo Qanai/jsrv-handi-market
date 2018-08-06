@@ -1,81 +1,122 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Eliyahu Shlieserman",
-        "email": "eliyahushli@gmail.com",
-        "password": "1234",
-        "roleId": 4
-    },{
-        "id": 5,
-        "name": "Gram Letre",
-        "email": "gram@letre.com",
-        "password": "1234",
-        "roleId": 3
-    }],
-    "roles": [{
-        "id": 1,
-        "name": "Surfer"
-    }, {
-        "id": 2,
-        "name": "Buyer"
-    }, {
-        "id": 3,
-        "name": "Seller"
-    }, {
-        "id": 4,
-        "name": "Admin"
-    }],
-    "categories": [{
-            "id": 1,
-            "name": "Hats",
-            "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Clothes",
-            "imageUrl": "https://www.hodoclothes.com/wp-content/uploads/2018/05/Sample-Display.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Napkins",
-            "imageUrl": "https://www.topp-kreativ.de/media/image/80/ab/01/Kloeppeln_band-1195986_1920.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Beads",
-            "imageUrl": "https://cdn.shopify.com/s/files/1/1346/1927/files/Mothersday-2017_CollectionBanner_450px_1600x_f871c84a-4cea-4338-bc6b-10c76f040bb1_2048x2048.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Furniture",
-            "imageUrl": "https://market.marmelada.co.il/photos/2437858.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Accessoires",
-            "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
-        }
-    ],
-    "stores": [{
-        "id": 1,
-        "name": "Abc Def",
-        "url": "abcdef",
-        "rating": 2,
-        "categoryId": [
-            1, 2, 4
-        ],
-        "userId": 5
-    }],
-    "products": [{
-        "id": 1,
-        "name": "Bracelet",
-        "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
-        "imageUrl": "https://i.ebayimg.com/images/g/gg4AAOSw-K9ZNLg8/s-l300.jpg",
-        "storeId": 1,
-        "categoryId": [
-            4,
-            6
-        ],
-        "added": "2018-07-28"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Eliyahu Shlieserman",
+      "email": "eliyahushli@gmail.com",
+      "password": "1234",
+      "roleId": 4
+    },
+    {
+      "id": 5,
+      "name": "Gram Letre",
+      "email": "gram@letre.com",
+      "password": "1234",
+      "roleId": 3
+    },
+    {
+      "name": "Bill Eyes",
+      "email": "bill@will.com",
+      "password": "1234",
+      "roleId": 2,
+      "id": 6
+    },
+    {
+      "name": "Judy Seller",
+      "email": "judy@sell.com",
+      "password": "1234",
+      "roleId": 3,
+      "id": 7
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Surfer"
+    },
+    {
+      "id": 2,
+      "name": "Buyer"
+    },
+    {
+      "id": 3,
+      "name": "Seller"
+    },
+    {
+      "id": 4,
+      "name": "Admin"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hats",
+      "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Clothes",
+      "imageUrl": "https://www.hodoclothes.com/wp-content/uploads/2018/05/Sample-Display.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Napkins",
+      "imageUrl": "https://www.topp-kreativ.de/media/image/80/ab/01/Kloeppeln_band-1195986_1920.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beads",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1346/1927/files/Mothersday-2017_CollectionBanner_450px_1600x_f871c84a-4cea-4338-bc6b-10c76f040bb1_2048x2048.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Furniture",
+      "imageUrl": "https://market.marmelada.co.il/photos/2437858.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Accessoires",
+      "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Abc Def",
+      "url": "abcdef",
+      "rating": 2,
+      "categoryId": [
+        1,
+        2,
+        4
+      ],
+      "userId": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Bracelet",
+      "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
+      "imageUrl": "https://i.ebayimg.com/images/g/gg4AAOSw-K9ZNLg8/s-l300.jpg",
+      "storeId": 1,
+      "categoryId": [
+        4,
+        6
+      ],
+      "added": "2018-07-28"
+    },
+    {
+      "id": 2,
+      "name": "Ring",
+      "description": "kjds fk dfk f gfke",
+      "imageUrl": "https://img.etsystatic.com/il/d3ef40/999017606/il_570xN.999017606_6t7v.jpg",
+      "storeId": 1,
+      "categoryId": [
+        4,
+        6
+      ],
+      "added": "2018-07-30"
+    }
+  ]
 }
