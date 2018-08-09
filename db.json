@@ -1,5 +1,6 @@
 {
-  "users": [{
+  "users": [
+    {
       "id": 1,
       "name": "Eliyahu Shlieserman",
       "email": "eliyahushli@gmail.com",
@@ -28,7 +29,8 @@
       "id": 7
     }
   ],
-  "roles": [{
+  "roles": [
+    {
       "id": 1,
       "name": "Surfer"
     },
@@ -45,7 +47,8 @@
       "name": "Admin"
     }
   ],
-  "categories": [{
+  "categories": [
+    {
       "id": 1,
       "name": "Hats",
       "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
@@ -76,44 +79,50 @@
       "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
     }
   ],
-  "stores": [{
-    "id": 1,
-    "name": "Abc Def",
-    "address": {
-      "street": "",
-      "city": "Rehovot",
-      "country": "Israel"
+  "stores": [
+    {
+      "id": 1,
+      "name": "Abc Def",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Rehovot",
+        "country": "Israel"
+      },
+      "about": "At eos summo officiis volutpat, invidunt tacimates no eam. Tractatos percipitur pro an, oporteat erroribus hendrerit eam no. Ne usu unum error. Ea nec sumo probo, pro ex movet aliquip suscipiantur. Qui esse accusam lobortis ad, an rebum malis recusabo qui. Ius tation doctus persecuti te.",
+      "sales": 0,
+      "rating": 2,
+      "joined": 1532379600000,
+      "categoryId": [
+        1,
+        2,
+        4
+      ],
+      "userId": 5
     },
-    "about": "At eos summo officiis volutpat, invidunt tacimates no eam. Tractatos percipitur pro an, oporteat erroribus hendrerit eam no. Ne usu unum error. Ea nec sumo probo, pro ex movet aliquip suscipiantur. Qui esse accusam lobortis ad, an rebum malis recusabo qui. Ius tation doctus persecuti te.",
-    "sales": 0,
-    "rating": 2,
-    "joined": 1532379600000,
-    "categoryId": [
-      1,
-      2,
-      4
-    ],
-    "userId": 5
-  },{
-    "id": 2,
-    "name": "Macrame World",
-    "address": {
-      "street": "",
-      "city": "Rishon Le-Zion",
-      "country": "Israel"
-    },
-    "about": "Vis in quando partiendo, elitr qualisque pro te. Nec iisque vivendum electram in, omnesque posidonium complectitur id mel. Eu vis dolor qualisque persequeris, per eu facer nominati splendide. An pri esse putant. Eam harum consetetur ne, dolore dictas mentitum nam et, in modo mentitum pro. Ne graecis luptatum consulatu eum, id mel solum errem concludaturque, pri agam mazim nullam ex.",
-    "sales": 0,
-    "rating": 2,
-    "joined": 1532898000000,
-    "categoryId": [
-      1,
-      2,
-      4
-    ],
-    "userId": 7
-  }],
-  "products": [{
+    {
+      "id": 2,
+      "name": "Macrame World",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Rishon Le-Zion",
+        "country": "Israel"
+      },
+      "about": "Vis in quando partiendo, elitr qualisque pro te. Nec iisque vivendum electram in, omnesque posidonium complectitur id mel. Eu vis dolor qualisque persequeris, per eu facer nominati splendide. An pri esse putant. Eam harum consetetur ne, dolore dictas mentitum nam et, in modo mentitum pro. Ne graecis luptatum consulatu eum, id mel solum errem concludaturque, pri agam mazim nullam ex.",
+      "sales": 0,
+      "rating": 2,
+      "joined": 1532898000000,
+      "categoryId": [
+        1,
+        2,
+        4
+      ],
+      "userId": 7
+    }
+  ],
+  "products": [
+    {
       "id": 1,
       "name": "Bracelet",
       "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
