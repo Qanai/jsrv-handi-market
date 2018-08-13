@@ -9,10 +9,14 @@
     },
     {
       "id": 5,
-      "name": "Gram Letre",
+      "name": "Graham Letreman",
       "email": "gram@letre.com",
       "password": "1234",
-      "roleId": 3
+      "roleId": 3,
+      "role": {
+        "id": 3,
+        "name": "Seller"
+      }
     },
     {
       "name": "Bill Eyes",
@@ -23,7 +27,7 @@
     },
     {
       "id": 7,
-      "name": "Judy Seller",
+      "name": "Judy Mary Seller",
       "email": "judy@sell.com",
       "password": "1234",
       "roleId": 3,
