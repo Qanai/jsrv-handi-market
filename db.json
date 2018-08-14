@@ -236,5 +236,23 @@
       "added": "2018-08-12T21:18:28.677Z",
       "id": 7
     }
+  ],
+  "search-types": [
+    {
+      "title": "Categories",
+      "path": "/categories"
+    },
+    {
+      "title": "Stores",
+      "path": "/stores"
+    },
+    {
+      "title": "Products",
+      "path": "/products"
+    },
+    {
+      "title": "Sellers",
+      "path": "/users?roleId=3"
+    }
   ]
 }
