@@ -1,6 +1,5 @@
 {
-  "users": [
-    {
+  "users": [{
       "id": 1,
       "name": "Eliyahu Shlieserman",
       "email": "eliyahushli@gmail.com",
@@ -37,8 +36,7 @@
       }
     }
   ],
-  "roles": [
-    {
+  "roles": [{
       "id": 1,
       "name": "Surfer"
     },
@@ -55,8 +53,7 @@
       "name": "Admin"
     }
   ],
-  "categories": [
-    {
+  "categories": [{
       "id": 1,
       "name": "Hats",
       "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
@@ -87,8 +84,7 @@
       "imageUrl": "https://market.marmelada.co.il/photos/2432253.jpg"
     }
   ],
-  "stores": [
-    {
+  "stores": [{
       "id": 1,
       "name": "Perl Shell Palace",
       "about": "At eos summo officiis volutpat, invidunt tacimates no eam. Tractatos percipitur pro an, oporteat erroribus hendrerit eam no. Ea nec sumo probo, pro ex movet aliquip suscipiantur. Qui esse accusam lobortis ad, an rebum malis recusabo qui. Ius tation doctus persecuti te. And more.",
@@ -130,8 +126,7 @@
       "userId": 7
     }
   ],
-  "products": [
-    {
+  "products": [{
       "id": 1,
       "name": "Bracelet",
       "description": "bala knjakbnkds kjds fk dfk f gfke ;re g",
@@ -231,14 +226,13 @@
         6
       ],
       "price": 32,
-      "rating": 0,
+      "rating": 1,
       "sales": 0,
       "added": "2018-08-12T21:18:28.677Z",
       "id": 7
     }
   ],
-  "search-types": [
-    {
+  "search-types": [{
       "id": 1,
       "title": "Categories",
       "path": "categories"
@@ -252,6 +246,37 @@
       "id": 3,
       "title": "Products",
       "path": "products?_expand=store"
+    }
+  ],
+  "product-sort": [{
+      "id": 1,
+      "field": "name",
+      "title": "Name"
+    },
+    {
+      "id": 2,
+      "field": "description",
+      "title": "Description"
+    }, 
+    {
+      "id": 3,
+      "field": "price",
+      "title": "Price"
+    },
+    {
+      "id": 4,
+      "field": "rating",
+      "title": "Rating"
+    },
+    {
+      "id": 5,
+      "field": "sales",
+      "title": "Sales"
+    },
+    {
+      "id": 6,
+      "field": "added",
+      "title": "Date added"
     }
   ]
 }
