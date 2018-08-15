@@ -265,12 +265,12 @@
     },
     {
       "id": 4,
-      "field": "rating",
+      "field": "-rating",
       "title": "Rating"
     },
     {
       "id": 5,
-      "field": "sales",
+      "field": "-sales",
       "title": "Sales"
     },
     {
